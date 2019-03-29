@@ -6,7 +6,7 @@ This Sprint explored Adding Data Persistence to Web APIs and you were taught the
 
 In your challenge for this Sprint, you will demonstrate proficiency by creating an API that persist data to SQLite3.
 
-## Instructions
+## Instructions 
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
@@ -33,9 +33,20 @@ This will be akin to the Web API that you built in the last sprint, only this ti
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 1. Explain the difference between `RDBMS` and `SQL`.
+
+A: RDBMS is a Relational Database Management System. It is the database software itself, which manages storage, querying, updating etc. SQL, the Structured Query Language, is a language which is used to query the RDBMS.
+
 1. Why do tables need a `primary key`?
+
+A: PRIMARY KEY constraints identify the column or set of columns that have values that uniquely identify a row in a table. No two rows in a table can have the same primary key value. 
+
 1. What is the name given to a table column that references the primary key on another table.
+
+A: Foreign Key
+
 1. What do we need in order to have a _many to many_ relationship between two tables.
+
+A: To model this relationship we need to introduce a third table that holds foreign keys that reference the primary key on the related tables.
 
 ## Project Set Up
 
